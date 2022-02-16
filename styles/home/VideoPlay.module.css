@@ -5,8 +5,8 @@
 }
 .videoCard {
   background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
-  height: 500px;
-  width: 500px;
+  height: 31.5rem;
+  width: 31.5rem;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2rem;
@@ -14,7 +14,6 @@
 }
 .playButton {
   background-color: #ff3e7e;
-  border: 5px solid #ff3e7e;
   display: flex;
   display: inline-block;
   border-radius: 100px;
@@ -30,7 +29,7 @@
 }
 .row {
   display: flex;
-  width: 1200px;
+  width: 100%;
   /* justify-items: center; */
   padding-left: 0rem;
 }
@@ -59,4 +58,81 @@
 }
 .textCard button:hover {
   background-color: rgb(201, 20, 0);
+}
+
+/* .videoCard {
+  background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  position: relative;
+} */
+
+@media (max-width: 1200px) {
+  .videoCard {
+    background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    position: relative;
+  }
+  .textCard {
+    height: 25rem;
+    width: 37.5rem;
+    text-align: start;
+    padding: 2rem 2rem 2rem 5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .row {
+    display: block;
+  }
+  .videoCard {
+    background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textCard {
+    height: 25rem;
+    width: 37.5rem;
+    text-align: start;
+    padding: 2rem 2rem 2rem 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 670px) {
+  .row {
+    display: block;
+  }
+  .videoCard {
+    background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
+    min-height: 300px;
+    min-width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 2rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textCard {
+    height: 25rem;
+    width: 37.5rem;
+    text-align: start;
+    padding: 2rem 2rem 2rem 5rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

@@ -1,13 +1,15 @@
 .background {
   background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/section_bg02.jpg.webp");
   background-repeat: no-repeat;
-  padding: 55px 0;
+  /* padding: 55px 0; */
   background-size: cover;
   display: flex;
   justify-content: center;
+  height: 400px;
+  position: relative;
 }
 .emergencyDiv {
-  width: 1500px;
+  max-width: 1500px;
   display: flex;
   justify-content: center;
   /* position: relative; */
@@ -17,8 +19,10 @@
   max-width: 300px;
   border-radius: 30px;
   padding: 2rem;
-  /* position: absolute; */
-  margin-right: 56rem;
+  position: absolute;
+  /* margin-right: 56rem; */
+  bottom: 30px;
+  left: 40px;
 }
 .emergencyCard p {
   color: #4c5152;
@@ -30,3 +34,14 @@
   border: none;
   color: #fff;
 }
+
+/* @media (max-width: 1250px) {
+  .emergencyCard {
+    background: white;
+    min-width: 380px;
+    border-radius: 30px;
+    padding: 2rem;
+    position: absolute;
+    margin-right: 45rem;
+  }
+} */

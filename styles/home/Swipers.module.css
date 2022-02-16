@@ -1,19 +1,28 @@
 .parentDiv {
   display: flex;
   justify-content: center;
+  border: 2px solid;
 }
 
 .childDiv {
-  width: 1500px;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 .swiper {
   padding: 20px 50px;
-  width: 800px;
+  width: 100%;
   margin: 2rem 0;
 }
+
+.swiperSlider div {
+  max-width: 700px;
+  min-width: 270px;
+}
+
 .swiperSlider {
   text-align: center;
   padding: 2rem 5rem;
+  margin-left: auto;
+  margin-right: auto;
 }
