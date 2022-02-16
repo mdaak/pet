@@ -1,0 +1,30 @@
+.servicDiv {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.serviceSlider {
+  max-width: 1270px;
+  padding: 0px 300px;
+  height: 500px;
+  padding: 2rem;
+}
+.slide {
+  /* width: 10%; */
+  border-radius: 2rem;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cardText {
+  background-color: #fff;
+  width: 20rem;
+  border-radius: 1rem;
+  color: #023c5a;
+  position: absolute;
+  bottom: -10%;
+  left: 8%;
+  box-shadow: 1px 1px 5px #e1dfdf;
+  padding: 1rem;
+}

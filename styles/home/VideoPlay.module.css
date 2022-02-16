@@ -1,0 +1,62 @@
+.videoPlaySection {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.videoCard {
+  background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
+  height: 500px;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  position: relative;
+}
+.playButton {
+  background-color: #ff3e7e;
+  border: 5px solid #ff3e7e;
+  display: flex;
+  display: inline-block;
+  border-radius: 100px;
+  overflow: hidden;
+  z-index: 1;
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  width: 1200px;
+  /* justify-items: center; */
+  padding-left: 0rem;
+}
+.textCard {
+  height: 500px;
+  width: 700px;
+  text-align: start;
+  padding: 2rem 5rem 2rem 5rem;
+}
+.textCard h2 {
+  font-size: 2.5rem;
+  color: rgb(45, 50, 111);
+}
+.textCard p {
+  color: rgb(19, 27, 62);
+  font-size: 1rem;
+}
+.textCard button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #ff3e7e;
+  color: #fff;
+  margin-top: 5rem;
+  cursor: pointer;
+}
+.textCard button:hover {
+  background-color: rgb(201, 20, 0);
+}

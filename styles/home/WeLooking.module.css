@@ -1,0 +1,29 @@
+.mainDiv {
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/section_bg03.jpg.webp");
+  color: #fff;
+}
+
+.childDiv {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+.textDiv {
+  text-align: center;
+}
+
+.buttons {
+  padding: 1rem 1rem 3rem 1rem;
+}
+.buttons button {
+  padding: 1rem 3rem;
+  margin: 0 1rem;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  color: #fff;
+  background: transparent;
+}
