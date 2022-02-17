@@ -15,7 +15,6 @@ const EmergencyCare = () => {
                   </div>
               </div>
             </div>
-            
         </div>
     );
 };

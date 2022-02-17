@@ -24,7 +24,7 @@ const Swipers = () => {
           spaceBetween={50}
           slidesPerView={1}
           navigation
-          effect-coverflow
+          effect-coverflow='true'
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           onSwiper={(swiper) => console.log(swiper)}

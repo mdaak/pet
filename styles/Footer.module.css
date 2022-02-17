@@ -13,13 +13,16 @@
 
 .row {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 .column {
   float: left;
-  width: 30%;
+  max-width: 30%;
 }
 .columnMid {
-  width: 20%;
+  min-width: 276px;
+  max-width: 30%;
 }
 .columnMid li {
   list-style: none;
@@ -41,6 +44,7 @@
 .column input {
   border-radius: 20px;
   padding: 10px;
+  width: 100%;
   border: 1px solid black;
 }
 

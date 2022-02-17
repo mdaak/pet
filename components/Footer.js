@@ -7,6 +7,7 @@ const Footer = () => {
       <div className={styles.footerAlign}>
         <div className={styles.footer}>
           <div className={styles.row}>
+
             <div className={styles.column}>
               {/* <h3>Pet Care</h3> */}
               <Image
@@ -20,6 +21,7 @@ const Footer = () => {
                 aliqua. Conse ctetur pisicin elit, sed do eiusmod tempor.
               </p>
             </div>
+
             <div className={styles.columnMid}>
               <ul>
                 <h3>Navigation</h3>
@@ -44,7 +46,7 @@ const Footer = () => {
                 <h3>Subscribe newsletter</h3>
                 <li>Subscribe our newsletter to get updates</li>
                 <li>about our services and offers.</li>
-                <input
+                <input 
                   placeholder="Eanter your Email Address"
                   type="inputFild"
                 />

@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   padding: 2rem;
+  border: 2px solid red;
 }
 .videoCard {
   background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
@@ -27,14 +28,15 @@
   margin-left: 50px;
   margin-bottom: 50px;
 }
-.row {
+/* .row {
   display: flex;
-  width: 100%;
-  /* justify-items: center; */
-  padding-left: 0rem;
-}
+  width: auto;
+  height: auto;
+  justify-content: center;
+  border: 3px solid green;
+} */
 .textCard {
-  height: 500px;
+  height: auto;
   width: 700px;
   text-align: start;
   padding: 2rem 5rem 2rem 5rem;
@@ -59,16 +61,6 @@
 .textCard button:hover {
   background-color: rgb(201, 20, 0);
 }
-
-/* .videoCard {
-  background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
-  height: 500px;
-  width: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 2rem;
-  position: relative;
-} */
 
 @media (max-width: 1200px) {
   .videoCard {
@@ -95,7 +87,7 @@
   .videoCard {
     background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
     height: 600px;
-    width: 600px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 2rem;
@@ -121,7 +113,7 @@
     min-height: 300px;
     min-width: 300px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: fill;
     border-radius: 2rem;
     position: relative;
     margin-left: auto;
@@ -129,9 +121,9 @@
   }
   .textCard {
     height: 25rem;
-    width: 37.5rem;
+    width: auto;
     text-align: start;
-    padding: 2rem 2rem 2rem 5rem;
+    padding: 2rem 2rem 2rem 2rem;
     margin-left: auto;
     margin-right: auto;
   }
