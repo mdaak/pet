@@ -1,18 +1,21 @@
-.nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.nav{
+ margin: 0 auto;
 }
+
 .navContainer {
-  width: 1400px;
+  width: 100%;
+  padding: 4px;
+  margin: 0 auto;
+
 }
 .navIconSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2px 100px;
+  padding: 10px 100px;
   color: #fff;
   background-color: #0094df;
+  
 }
 .navManuSection {
   display: flex;

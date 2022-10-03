@@ -1,0 +1,14 @@
+.container{
+    /* display: flex;
+    justify-content:center; */
+    border:1px solid  blue;
+    position: relative;
+    height: 800px;
+   
+}
+.hero_text{
+    z-index: 999;
+}
+.hero_text>h1{
+
+}

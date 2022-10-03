@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import { A11y, Autoplay, Navigation, Pagination, Scrollbar } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
@@ -62,6 +62,8 @@ const PetCareService = () => {
       para: "Far far away, behind the word mountains, far ",
     },
   ];
+  // const previewCount = window.screen.width;
+ 
   return (
     <div className={styles.servicDiv}>
       <Swiper

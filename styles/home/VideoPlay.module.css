@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   padding: 2rem;
-  border: 2px solid red;
 }
 .videoCard {
   background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
