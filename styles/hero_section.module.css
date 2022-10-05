@@ -3,12 +3,32 @@
     justify-content:center; */
     border:1px solid  blue;
     position: relative;
-    height: 800px;
+    height: 600px;
+    overflow: hidden;
    
 }
+.context{
+    border: 3px solid green;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    overflow: hidden;
+}
+.comtainer_image{
+    position:relative;
+    overflow: hidden;
+    /* border: 5px solid red; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: scale(2);
+    top: 0;
+    left: 50; 
+
+}
+
 .hero_text{
     z-index: 999;
 }
-.hero_text>h1{
 
-}
+
