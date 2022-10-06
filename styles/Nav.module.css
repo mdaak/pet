@@ -4,7 +4,6 @@
 
 .navContainer {
   width: 100%;
-  padding: 4px;
   margin: 0 auto;
 
 }
@@ -15,13 +14,14 @@
   padding: 10px 100px;
   color: #fff;
   background-color: #0094df;
-  
+  height: 3rem;
 }
 .navManuSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0px 10px;
+  background-color: #EDFAFF;
 }
 
 .navManuIcon {
