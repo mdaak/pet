@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import styles from "../styles/Nav.module.css";
@@ -19,11 +20,11 @@ const NavBar = () => {
           {/* big screen   nav section */}
           <div className={styles.navManuItems}>
             <ul>
-              <li>Home</li>
-              <li>Service</li>
-              <li>About</li>
-              <li>Blog</li>
-              <li>Contact</li>
+              <Link href='/'><a><li>Home</li></a></Link>
+              <Link href='/service'><a><li>Service</li></a></Link>
+              <Link href='/about'><a><li>About</li></a></Link>
+              <Link href='/blog'><a><li>Blog</li></a></Link>
+              <Link href='/contact'><a><li>Contact</li></a></Link>
               <button>
                 <p>Get Quote</p>
               </button>
@@ -34,23 +35,23 @@ const NavBar = () => {
         <div>
           <div className={styles.smartDevice}>
             <div className={styles.smartBar}>
-              <span onClick={(e)=>{setData(!data)}}>
-              <span>Menu</span> &nbsp; <FaBars />
+              <span onClick={(e) => { setData(!data) }}>
+                <span>Menu</span> &nbsp; <FaBars />
               </span>
             </div>
           </div>
           {
             data &&
             <div className={styles.smartOption}>
-            <ul>
-              <li>Home </li>
-              <li>Service </li>
-              <li>About </li>
-              <li>Blog +</li>
-              <li>Contact </li>
-              <button> Get Quote</button>
-            </ul>
-          </div>
+              <ul>
+                <li>Home </li>
+                <li>Service </li>
+                <li>About </li>
+                <li>Blog +</li>
+                <li>Contact </li>
+                <button> Get Quote</button>
+              </ul>
+            </div>
           }
         </div>
       </div>

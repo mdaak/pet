@@ -46,6 +46,9 @@
   padding: 0.5rem 1.25rem;
   margin: 0 0rem;
 }
+.navManuItems ul li:hover{
+  color: #ff3e7e;
+}
 .navManuItems ul button {
   border: none;
   width: 110px;
