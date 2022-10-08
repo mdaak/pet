@@ -73,7 +73,6 @@ background-color: #fff;
 }
 
 @media (max-width:768px) {
-    
     .container{
         padding: 0 2rem;
     }

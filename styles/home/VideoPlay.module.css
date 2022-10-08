@@ -5,7 +5,7 @@
 }
 .videoCard {
   background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
-  height: 31.5rem;
+  height: 100%;
   width: 31.5rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +84,7 @@
   }
   .videoCard {
     background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
-    height: 600px;
+    height: 100%;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,8 +108,8 @@
   }
   .videoCard {
     background-image: url("https://preview.colorlib.com/theme/thepetcare/assets/img/gallery/xabout1.jpg.pagespeed.ic.X7v89GwZgL.webp");
-    min-height: 300px;
-    min-width: 300px;
+    height: 100%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: fill;
     border-radius: 2rem;

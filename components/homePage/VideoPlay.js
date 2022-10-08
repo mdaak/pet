@@ -10,7 +10,10 @@ const VideoPlay = () => {
         <div className={styles.videoCard}>
           <div className={styles.playButton}>
             <Link href='https://www.youtube.com/watch?v=up68UAfH0d0&ab_channel=Mr.Mixer%27sWorld'>
-            <a> <Image src="/play.jpg" alt="" height="100px" width="100px" /></a>
+            <a> <Image src="/play.jpg" alt=""
+            //  height="100px" width="100px"
+            layout="fill"
+              /></a>
             </Link>
           </div>
         </div>

@@ -71,25 +71,25 @@ const PetCareService = () => {
         navigation
         autoplay = {true}
         spaceBetween={40}
-        slidesPerView={3}
+        slidesPerView={4}
         pagination={{ clickable: true }}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         className={styles.serviceSlider}
         breakpoints={{
-          "340px": {
+          340: {
             slidesPerView: 1,
-            spaceBetween: 0,
+            spaceBetween: 20,
           },
-          "768px": {
-            slidesPerView: 2,
-            spaceBetween: 10,
-          },
-          "1280px": {
+          768: {
             slidesPerView: 2,
             spaceBetween: 30,
           },
-          "1366px": {
+          1280: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1366: {
             slidesPerView: 3,
             spaceBetween: 50,
           },
